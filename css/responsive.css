@@ -1,5 +1,9 @@
 
 @media only screen and (min-width: 900px) and (max-width: 1020px){
+	header{
+		background-image: url("../img/background.jpg");
+	}
+	
 	.novo-menu{
 		display: none;
 	}
@@ -62,7 +66,8 @@
 	/*intrducao*/
 	.intro{
 		padding-top: 20px;
-		background-image: url("../img/bg-mobile.jpg");
+		background-image: url("../img/bg.jpg");
+		padding-top: 150px;
 	}
 
 	blockquote{
@@ -76,6 +81,7 @@
 
 	.qualidade:after{
 		left: -166px;
+		display: none;
 	}
 
 	.lista-qualidade li h3{
@@ -85,6 +91,10 @@
 	/*Quebra*/
 	.quebra blockquote{
 		width: 60%;
+	}
+
+	.quebra{
+		background-image: url(../img/bg-footer-mobile.jpg);
 	}
 
 	/*Footer*/
@@ -151,6 +161,12 @@
 }
 
 @media only screen and (max-width: 660px){
+	.intro{
+		padding-top: 20px;
+		background-image: url("../img/bg-mobile.jpg");
+		padding-top: 120px;
+	}
+	
 	.produtos-img img{
 		width: 100%;
 	}
@@ -166,9 +182,14 @@
 
 @media only screen and (max-width: 515px){
 
+	.intro{
+		padding-top: 60px;
+	}
+
 	.intro h1{
 		font-size: 40px;
-		text-align: left;
+		text-align: center;
+		padding-top: 100px;
 	}
 
 	header{
@@ -182,15 +203,16 @@
 
 	.novo-menu{
 		width: 100%;
-		background-color: #FEC63E;
+		background-image: url("../img/background.jpg");
 		display: block;
+		background-position: unset;
 		height: 100px;
 		position: absolute;
 		top: 0;
 	}
 
 	.img-logo{
-		margin: 20px 100px;
+		margin: 0px 200px;
 	}
 
 	/*MENU HAMBURGUER*/
@@ -266,7 +288,7 @@
 	}
 
 	.novo-menu input:checked ~ label .menu-sandwich{
-		box-shadow: 0 0 0 70vw #FEC63E, 0 0 0 70vw #FEC63E;
+		box-shadow: 0 0 50px 70vw #e7e5bc;
 	}
 
 	.novo-menu input:checked ~ .aparece-menu{
@@ -276,7 +298,7 @@
 		width: 70%;
 		top: 20px;
 		left: 80px;
-		transition: 1s .08s;
+		transition: 0s 0s;
 	}
 
 }
