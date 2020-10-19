@@ -80,3 +80,20 @@
 	border: 1px solid black;
 	margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 515px){
+
+	.contato-dados ul li{
+		width: 150%;
+	}
+
+	.form input, .contato-dados{
+		width: 100%;
+	}
+
+	.contato{
+		text-align: left;
+	}
+
+
+}

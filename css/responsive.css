@@ -3,6 +3,10 @@
 	header{
 		background-image: url("../img/background.jpg");
 	}
+
+	.header_menu li a{
+		font-size: 16px;
+	}
 	
 	.novo-menu{
 		display: none;
@@ -28,6 +32,14 @@
 
 @media only screen and (max-width: 900px){
 
+	header img{
+		width: 50%;
+	}
+	
+	.header_menu li a{
+		font-size: 16px;
+	}
+
 	.novo-menu{
 		display: none;
 	}
@@ -36,6 +48,10 @@
 	header .img-logo{
 		margin: 0 50%;
 		transform: translate(-50%);
+	}
+
+	.header_menu li a{
+		font-size: 16px;
 	}
 
 	.header_menu{
@@ -166,6 +182,10 @@
 		background-image: url("../img/bg-mobile.jpg");
 		padding-top: 120px;
 	}
+
+	.header_menu li a{
+		font-size: 16px;
+	}
 	
 	.produtos-img img{
 		width: 100%;
@@ -181,6 +201,10 @@
 }
 
 @media only screen and (max-width: 515px){
+
+	.header_menu li a{
+		font-size: 16px;
+	}
 
 	.intro{
 		padding-top: 60px;
@@ -306,6 +330,10 @@
 
 @media only screen and (max-width: 400px){
 
+	.header_menu li a{
+		font-size: 16px;
+	}
+	
 	.intro h1{
 		font-size: 32px;
 		text-align: center;
