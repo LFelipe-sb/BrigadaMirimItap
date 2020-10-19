@@ -1,5 +1,5 @@
 .intro-sobre{
-	background-image: url("../img/bg-sobre.jpg");
+	background-image: url("../img/bg-geral.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -9,8 +9,13 @@
 	font-weight: bold;
 }
 
+.left{
+	text-align: left;
+}
+
 .historia-sobre{
 	padding-top: 60px;
+	text-align: justify;
 }
 
 .historia-sobre p, .historia-sobre li{

@@ -92,7 +92,8 @@ p{
 
 .header_menu li .ativo{
 	color: #000;
-	text-shadow: 0px 0px 3px #FFF;
+	/* text-shadow: 0px 0px 3px #FFF; */
+	/* text-decoration: underline; */
 }
 
 /************************************************************/
@@ -148,7 +149,7 @@ header{
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 20px;
 	padding: 10px;
 }
