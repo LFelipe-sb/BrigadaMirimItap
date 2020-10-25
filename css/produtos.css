@@ -1,5 +1,5 @@
 .intro-produtos{
-	background-image: url("../img/bg-produtos.jpg");
+	background-image: url("../img/bg-geral.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -8,10 +8,34 @@
 	padding-top: 60px;
 }
 
+.parceiros{
+	box-shadow: 1px 1px 5px black;
+	border: 1px solid black;
+	padding: 30px;
+}
+
+.produto-item h1{
+	text-align: center;
+	font-size: 3em;
+	padding-bottom: 30px;
+}
+
+
 .produto-icone{
-	background-color: black;
+	background-color: #FFF;
 	padding: 70px 0px;
 	text-align: center;
+}
+
+.agradecimentos p{
+	text-align: justify;
+	padding: 10px;
+}
+
+.agradecimentos h3{
+	text-align: justify;
+	padding: 10px;
+	line-height: 1.2em;
 }
 
 .foto{
@@ -107,6 +131,13 @@
 .orcamento h2:after{
 	background-color: #FEC63E;
 	margin-top: 5px;
+}
+
+.orcamento .msg{
+	color: #fff;
+	font-size: 16pt;
+	padding: 20px 15px;
+	text-align: center;
 }
 
 .form label{

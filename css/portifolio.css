@@ -1,15 +1,10 @@
 .intro-portifolio{
-	background-image: url("../img/bg-portifolio.jpg");
+	background-image: url("../img/bg-geral.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
-
-.mensagem-cliente{
-	padding-bottom: 20px;
-}
-
-.mensagem-cliente blockquote p{
+.mensagem-cliente blockquote p, .mensagem-cliente ul li{
 	color: black;
 	text-align: center;
 	font-style: italic;
@@ -17,9 +12,12 @@
 	line-height: 25px;
 }
 
-.mensagem-cliente blockquote cite{
-	color: red;
-	float: right;
-	font-style: normal;	
+.portifolio p{
+	text-align: center;
+	font-size: 26px;
+	padding: 45px;
 }
 
+.portifolio ul li{
+	padding-bottom: 15px;
+}
