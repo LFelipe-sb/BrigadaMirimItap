@@ -351,8 +351,12 @@
 	}
 
 	.produto-info p{
-		height: 360px;
+		height: 450px;
 		padding: 20px;
+	}
+
+	.produto-item h2{
+		margin-top: 0;
 	}
 
 	.produto-item img{
@@ -377,5 +381,24 @@
 		margin-top: -40px;
 	}
 
+	.produto-info p{
+		margin-top: 120px;
+	}
+
+	.produto-item h1{
+		font-size: 20pt;
+		padding-top: 15px;
+	}
+
+	.historia-sobre p{
+		width: 100%;
+		text-align: justify;
+		padding-right: 0;
+	}
+
+	.subtitulo-esquerda{
+		margin-top: 15px;
+	}
 
 }
+

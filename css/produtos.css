@@ -65,7 +65,7 @@
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	margin-top: 120px;
+	padding-top: 60px;
 	text-shadow: 0 0 10px white;
 }
 
@@ -90,6 +90,7 @@
 	padding: 30px 50px;
 	height: 160px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 .produto-info ul li{
@@ -204,4 +205,18 @@
 
 .orcamento-dados ul li:nth-child(odd){
 	background-color: #1d1d1d;
+}
+
+@media only screen and (max-width: 400px){
+
+	.container{
+		width: 90%;
+	}
+
+	.produto-info h2{
+		font-size: 20pt;
+		padding-top: 0;
+		margin-top: 0px;
+	}
+
 }

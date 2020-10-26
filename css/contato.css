@@ -84,7 +84,7 @@
 @media only screen and (max-width: 515px){
 
 	.contato-dados ul li{
-		width: 150%;
+		width: 120%;
 	}
 
 	.form input, .contato-dados{
@@ -93,6 +93,10 @@
 
 	.contato{
 		text-align: left;
+	}
+
+	.container{
+		width: 90%;
 	}
 
 
