@@ -105,6 +105,10 @@
 	line-height: 60px;
 }
 
+.parceiros ul a{
+	color: #000;
+}
+
 .baixo{
 	border-top: 2px solid black;
 }
